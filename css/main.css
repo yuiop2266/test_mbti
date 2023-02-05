@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+html, body { padding: 0; margin: 0; height: 100%; }
+#container {
+    max-width: 768px;
+    background-color: rgb(179, 157, 123);
+    margin: auto;
+    height: 100%;
+    position:relative;
+}
+#container header {
+    width: 100%;
+}
