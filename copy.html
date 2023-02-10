@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeongBTI</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/top_nav.css">
+    <link rel="stylesheet" href="/css/side_menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="/js/includeHTML.js"></script>
+</head>
+<body>  
+    <div id="container">
+        <!-- HEADER -->
+        <header>
+            <!-- TOP_MENU -->
+            <nav class="top-nav" include-html="nav_top.html"></nav>
+            <div class="side-menu" include-html="side_menu.html"></div>
+        </header>
+        <!-- MAIN -->
+        <main>
+
+        </main>
+    </div>
+    <script>
+        includeHTML( function () {
+            includeRouter( function () {
+            // do something in the future
+            });
+        });
+    </script>
+</body>
+</html>
